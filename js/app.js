@@ -183,7 +183,7 @@
     if (s.lesson) {
       const l = s.lesson, m = s.m;
       extra += (l.takeaway ? '<section class="card section"><p class="eyebrow">À retenir</p><p class="quote">' + esc(l.takeaway) + "</p></section>" : "") +
-        (l.punchline ? '<section class="card section"><p class="eyebrow">À placer en débat</p><p>« ' + esc(l.punchline) + ' »</p><button class="btn" id="copy-punch">Copier la phrase</button></section>' : "") +
+        (l.punchline ? '<section class="card section"><p class="eyebrow">À placer en débat</p><p>' + esc(/^[«"“]/.test(l.punchline.trim()) ? l.punchline : "« " + l.punchline + " »") + '</p><button class="btn" id="copy-punch">Copier la phrase</button></section>' : "") +
         (l.mission ? '<section class="card section"><p class="eyebrow">Mission dans la vraie vie</p><h3>' + esc(l.mission.title || "Défi") + "</h3>" + rich(l.mission.text) +
           (S.missions[lkey(m, l)] ? '<span class="pill">✓ Mission accomplie</span>' : '<button class="btn" id="mission-done">J\'ai fait la mission (+' + VOIX.mission + " voix)</button>") + "</section>" : "");
     }
