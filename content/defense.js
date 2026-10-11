@@ -521,8 +521,8 @@ registerModule({
   annexes: [
     {
       title: "Chiffres clés (datés)",
-      text: "- Budget des armées : **32 Md€** (2017) → **57,1 Md€** (2026, mission Défense) → objectif **64 Md€** (2027)\n- LPM 2024-2030 : **413 Md€** (loi du 1er août 2023)\n- Actualisation : **+36 Md€** sur 2026-2030 (loi du 16 août 2026)\n- OTAN : **5 % du PIB** d'ici 2035, dont 3,5 % de défense « cœur » (La Haye, 25 juin 2025)\n- Arsenal nucléaire : « inférieur à 300 » têtes (2020) ; plus de chiffres publiés depuis mars 2026\n- Renseignement : **6** services au premier cercle\n- Conseil de sécurité : **15** membres dont **5** permanents ; dernier veto français en **1989**",
-      sources: ["brienne2025", "senatPlf2026", "lpmLivret", "lpm2026", "otanLaHaye", "dissuasion2020", "dissuasion2026", "csi", "onuVeto"]
+      text: "- Budget des armées : **32 Md€** (2017) → **57,1 Md€** (2026, mission Défense) → objectif **64 Md€** (2027)\n- LPM 2024-2030 : **413 Md€** (loi du 1er août 2023)\n- Actualisation : **+36 Md€** sur 2026-2030 (loi du 16 août 2026)\n- OTAN : **5 % du PIB** d'ici 2035, dont 3,5 % de défense « cœur » (La Haye, 25 juin 2025)\n- Arsenal nucléaire : « inférieur à 300 » têtes (2020) ; plus de chiffres publiés depuis mars 2026\n- Renseignement : **6** services au premier cercle\n- Conseil de sécurité : **15** membres dont **5** permanents ; dernier veto français en **1989**\n- Futur porte-avions : baptisé **France Libre** (annonce du 18 mars 2026)",
+      sources: ["brienne2025", "senatPlf2026", "lpmLivret", "lpm2026", "otanLaHaye", "dissuasion2020", "dissuasion2026", "csi", "onuVeto", "pang2026"]
     },
     {
       title: "Qui fait quoi ?",
