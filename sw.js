@@ -1,6 +1,6 @@
 // Service worker : l'appli marche hors ligne après la première visite.
 // Incrémenter VERSION à chaque mise à jour du contenu pour forcer le rafraîchissement.
-const VERSION = "prepa27-v1";
+const VERSION = "prepa27-v2";
 importScripts("content/index.js");
 const CORE = ["./", "index.html", "styles.css", "manifest.webmanifest", "js/registry.js", "js/app.js", "js/studio-data.js",
   "content/index.js", "icons/icon.svg", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"].concat(self.MODULE_FILES || []);
