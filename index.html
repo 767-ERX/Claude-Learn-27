@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prépa 2027</title>
+<meta name="description" content="Apprendre la psychologie, le management, l'économie, la défense, l'IA, la culture et l'éloquence, en 2 minutes par jour, avec les sources.">
+<meta name="theme-color" content="#2440c8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Prépa 2027">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app" class="app">
+  <header class="topbar">
+    <a href="#/" class="brand" aria-label="Accueil Prépa 2027"><span class="brand-mark">27</span><span class="brand-name">Prépa 2027</span></a>
+    <a href="#/profil" class="topbar-stats" id="topbar-stats" aria-label="Mon profil"></a>
+  </header>
+  <main id="view" class="view" tabindex="-1">
+    <p class="loading">Chargement des dossiers…</p>
+  </main>
+  <nav class="tabbar" aria-label="Navigation principale">
+    <a href="#/" data-tab="home"><span class="tab-ico" aria-hidden="true">⌂</span>Accueil</a>
+    <a href="#/modules" data-tab="modules"><span class="tab-ico" aria-hidden="true">▤</span>Dossiers</a>
+    <a href="#/studio" data-tab="studio"><span class="tab-ico" aria-hidden="true">◉</span>Studio</a>
+    <a href="#/revisions" data-tab="revisions"><span class="tab-ico" aria-hidden="true">↻</span>Révisions</a>
+    <a href="#/annexes" data-tab="annexes"><span class="tab-ico" aria-hidden="true">§</span>Annexes</a>
+  </nav>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script src="js/registry.js"></script>
+<script src="content/index.js"></script>
+<script src="js/studio-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
